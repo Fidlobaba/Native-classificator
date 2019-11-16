@@ -31,8 +31,8 @@ for i, j in enumerate(np.unique(y_set)):
                 c = ListedColormap(('white', 'black'))(i), label = j,marker='.')
 
 plt.title('Training set')
-plt.xlabel('Age')
-plt.ylabel('Estimated Salary')
+plt.xlabel('Raiting')
+plt.ylabel('Wrait')
 plt.legend()
 plt.show()
 
